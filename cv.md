@@ -1,3 +1,5 @@
+![my photo](./cvphoto.jpg "It's me")
+
 ## Dmitriy Tsvihun
 
 ### Location
