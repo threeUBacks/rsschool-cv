@@ -2,3 +2,7 @@ body {
    background-color: rgb(44, 68, 99);
    font-style: Trebuchet MS;
 }
+
+.header {
+   background-color: rgb(31, 60, 87);
+}
