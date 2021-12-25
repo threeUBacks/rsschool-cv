@@ -1,2 +1,1 @@
-# rsschool-cv
-https://threeUBacks.github.io/rsschool-cv/cv
+https://threeUBacks.github.io/rsschool-cv/
