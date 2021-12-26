@@ -22,17 +22,12 @@ li {
 
 body {
    font-family: 'Roboto Mono';
-   background-color: wheat;
 }
 
 .header {
    display: flex;
    width: 100%;
    background-color: rgb(17, 61, 107);
-}
-
-main {
-   color: rgb(17, 61, 107);
 }
 
 .header-logo {
@@ -58,59 +53,12 @@ nav {
 
 .menu-nav a:hover {
    transition: 0.5s;
-   color: wheat;
+   color: yellowgreen;
 }
 
 .menu-nav .icon {
    display: none;
 }
-
-.main {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-}
-
-.div-aboutme {
-   text-align: center;
-   padding: 150px 210px 0;
-   font-size: 16px;
-}
-
-.head {
-   padding-top: 25px;
-   padding-bottom: 25px;
-}
-
-.paragraph {
-   border-bottom: 1px solid rgb(17, 61, 107);
-   padding-bottom: 15px;
-}
-
-.myphoto {
-   border-radius: 125px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1440px) {
    .menu-nav a {
@@ -120,7 +68,7 @@ nav {
       float: right;
       margin-top: -17px;
       display: block;
-      color: wheat;
+      color: whitesmoke;
       font-size: 25px;
    }
    nav {
@@ -130,17 +78,17 @@ nav {
    .menu-nav.responsive {
       position: relative;
       top: 50px;
-      left: -250px;
+      left: -200px;
    }
 
    header .menu-nav.responsive {
-      height: 450px;
+      height: 340px;
    }
 
    .menu-nav.responsive a.icon {
       position: absolute;
       top: -50px;
-      right: -250px;
+      right: -200px;
    }
 
    .menu-nav.responsive a {
@@ -149,4 +97,3 @@ nav {
       text-align: left;
    }
 }
-
