@@ -25,23 +25,26 @@ body {
    background-color: wheat;
 }
 
+main {
+   display: flex;
+   color: rgb(17, 61, 107);
+}
+
+/*header*/
 .header {
    display: flex;
    width: 100%;
    background-color: rgb(17, 61, 107);
 }
 
-main {
-   color: rgb(17, 61, 107);
-}
-
 .header-logo {
+   display: block;
    text-transform: uppercase;
    color: white;
    font-weight: 800;
    font-size: 24px;
-   margin-top: 50px;
-   margin-left: 12%;
+   padding-left: 50px;
+   padding-top: 50px;
 }
 
 nav {
@@ -64,15 +67,16 @@ nav {
 .menu-nav .icon {
    display: none;
 }
+/*header*/
 
+/*main*/
 .main {
    display: flex;
-   flex-direction: column;
    width: 100%;
 }
 
 .div-aboutme {
-   text-align: center;
+   text-align: start;
    padding: 150px 210px 0;
    font-size: 16px;
 }
@@ -90,6 +94,35 @@ nav {
 .myphoto {
    border-radius: 125px;
 }
+
+.skill-list {
+   border-bottom: 1px solid rgb(17, 61, 107);
+   padding-bottom: 15px;
+}
+
+.div-code {
+   border-bottom: 1px solid rgb(17, 61, 107);
+   padding-bottom: 15px;
+}
+
+.pre {
+   border-bottom: 1px solid rgb(17, 61, 107);
+   padding-bottom: 15px;
+}
+
+.course-list {
+   border-bottom: 1px solid rgb(17, 61, 107);
+   padding-bottom: 15px;
+}
+
+.contacts-list {
+   border-bottom: 1px solid rgb(17, 61, 107);
+   padding-bottom: 15px;
+}
+
+/*main*/
+
+/*footer*/
 
 
 
@@ -131,6 +164,7 @@ nav {
       position: relative;
       top: 50px;
       left: -250px;
+      transition: all 1s;
    }
 
    header .menu-nav.responsive {
