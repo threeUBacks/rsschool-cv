@@ -115,14 +115,39 @@ nav {
    padding-bottom: 15px;
 }
 
-.contacts-list {
-   border-bottom: 1px solid rgb(17, 61, 107);
-   padding-bottom: 15px;
-}
-
 /*main*/
 
 /*footer*/
+
+footer {
+   display: flex;
+   width: 100%;
+   background-color: rgb(17, 61, 107);
+   height: auto;
+}
+
+.footer_body{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.github_logo {
+   display: flex;
+   padding-top: 25px;
+}
+
+.year {
+   display: flex;
+   padding: 25px 50px 25px 50px;
+   align-content: center;
+}
+
+.rsschool_logo {
+   align-content: center;
+   padding-right: 25px;
+}
 
 
 
